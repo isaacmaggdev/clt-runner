@@ -37,10 +37,12 @@
   },
   "name":"clt-runner",
   "resources":[
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"rm_partida","path":"rooms/rm_partida/rm_partida.yy",},},
+    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
     {"id":{"name":"spr_intro_advance","path":"sprites/spr_intro_advance/spr_intro_advance.yy",},},
     {"id":{"name":"spr_intro1","path":"sprites/spr_intro1/spr_intro1.yy",},},
@@ -52,8 +54,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"roomId":{"name":"rm_partida","path":"rooms/rm_partida/rm_partida.yy",},},
+    {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
